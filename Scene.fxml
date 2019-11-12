@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FinalPackage.Controller">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c463eb9c" height="600.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="800.0" />
+      <Button fx:id="rock" layoutX="12.0" layoutY="476.0" mnemonicParsing="false" onAction="#playRock" prefHeight="110.0" prefWidth="255.0" text="Rock">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="48.0" />
+         </font>
+      </Button>
+      <Button fx:id="paper" layoutX="273.0" layoutY="476.0" mnemonicParsing="false" onAction="#playPaper" prefHeight="110.0" prefWidth="255.0" text="Paper">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="48.0" />
+         </font>
+      </Button>
+      <Button fx:id="scissors" layoutX="533.0" layoutY="476.0" mnemonicParsing="false" onAction="#playScissors" prefHeight="110.0" prefWidth="255.0" text="Scissors">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="48.0" />
+         </font>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f73edcc3" height="200.0" layoutX="190.0" layoutY="147.0" stroke="BLACK" strokeType="INSIDE" width="420.0" />
+      <Label fx:id="lbl" alignment="CENTER" layoutX="259.0" layoutY="174.0" prefHeight="73.0" prefWidth="284.0" text="&quot; &quot;">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="32.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl2" alignment="CENTER" layoutX="227.0" layoutY="247.0" prefHeight="73.0" prefWidth="347.0" text="&quot; &quot;">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="32.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
