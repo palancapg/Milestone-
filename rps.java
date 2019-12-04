@@ -68,4 +68,24 @@ public class rps {
             return Outcome.DRAW;
         }
     }
+    public void adder(boolean b){
+        if(b){
+            userWins++;
+        }
+        if(!b){
+            compWins++;
+        }
+    }
+
+    public int getCompWins() {
+        return compWins;
+    }
+
+    public int getUserWins() {
+        return userWins;
+    }
+    public void resetWins(){
+        compWins=0;
+        userWins=0;
+    }
 }
